@@ -1,27 +1,15 @@
-# Example of excalidraw collaboration server
+# Excalidraw Room Backend (Forked)
 
-Collaboration server for Excalidraw
+This is custom configuration to backend to handle collaboration for [this repo](https://github.com/RioChndr/excalidraw-collab-playground).
 
-If you need to use cluster mode with pm2. Checkout: https://socket.io/docs/v4/pm2/
+```sh
 
-If you are not familiar with pm2: https://pm2.keymetrics.io/docs/usage/quick-start/
+# install
 
-# Development
+yarn
 
-- install
+# run
 
-  ```sh
-  yarn
-  ```
+yarn start:dev
 
-- run development server
-
-  ```sh
-  yarn start:dev
-  ```
-
-# Start with pm2
-
-```
-pm2 start pm2.production.json
 ```
